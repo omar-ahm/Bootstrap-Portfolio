@@ -1,0 +1,11 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+.navbar-nav {
+   margin-left: auto;
+}
+.navbar navbar-expand-lg a {
+    color:#fff
+}
