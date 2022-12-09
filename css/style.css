@@ -2,6 +2,10 @@ body {
     background: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* NAVIGATION STYLING */
 .navbar-nav {
    margin-left: auto;
@@ -32,8 +36,36 @@ body {
 .navbar-expand-lg .navbarNav{
     background-color: #000;
 }
-button .navbar-toggler-icon {
+/* button .navbar-toggler-icon {
     border: #fff solid 1px;
+} */
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #fff;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    display: block;
+    width: 1.5em;
+    height: 2px;
+    vertical-align: middle;
+    content: "";
+    background: #fff;
+}
+.hamburger-middle {
+    transform: translateY(5px);
+}
+.hamburger-bottom {
+    transform: translateY(10px);
+}
+.hamburger-top {
+    margin-top: 30px;
+}
+span .navbar-toggler-icon {
+ background: transparent;
+ color: #fff;   
 }
 
 /* JUMBOTRON STYLING */
@@ -41,3 +73,74 @@ button .navbar-toggler-icon {
     background-color: #000;
     color: #fff;
 }
+
+/* MAIN HERO PROJECT CONTAINER */
+
+
+/* PROJECT CONTAINER STYLING */
+.container .row {
+    color: #fff;
+    border: #fff dashed 1px;
+}
+.card-image-top img {
+    width: 286px;
+    height: 225px;
+}
+
+
+
+/* CONTACT SECTION STYLING  */
+.contact-section {
+    padding-top: 5rem;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+
+  /* FOOTER SECTION STYLING  */
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #000;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  footer ul {
+    margin-bottom: 0;
+  }
