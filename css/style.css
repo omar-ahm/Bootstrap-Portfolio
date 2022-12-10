@@ -66,6 +66,9 @@ span .navbar-toggler-icon {
  background: transparent;
  color: #fff;   
 }
+.nav-item a {
+  font-size: 20px;
+}
 
 /* -----------------------------------------------------------------JUMBOTRON STYLING */
 .jumbotron {
@@ -90,9 +93,13 @@ span .navbar-toggler-icon {
     width: 286px;
     height: 225px;
 }
-/* img.card-img-top {
-  border: aquamarine dashed 2px;
-} */
+.card-img-top img {
+  width: 286px;
+  height: 225px;
+}
+.card-body img.card-img-top {
+  border: aquamarine solid 2px;
+}
 .card {
   background: #000;
 }
@@ -107,6 +114,12 @@ h4 {
 }
 .btn {
   margin-top: 20px;
+}
+.text-white-50 {
+color: aquamarine !important;
+}
+.small {
+  font-size: 15px !important;
 }
 
 /* ----------------------------------------------------------SKILLS SECTION STYLING  */
@@ -165,9 +178,12 @@ h4 {
   background-color:#0CB880
 }
 .progress-bar4{
+  background-color:#C7A206
+}
+.progress-bar5{
   background-color:#7043AA
 }
-.progress .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4{
+.progress .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4, .progress-bar5{
     border: none;
     box-shadow: none;
     -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
@@ -228,30 +244,33 @@ h4 {
   border-bottom: aquamarine solid 2px;
 }
 
- 
-
-
- /* SOCIAL ICON SECTION STYLING  */
- .contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: aquamarine;
-  border-radius: 100%;
-  line-height: 3rem;
-  color: #000;
+.card button {
+  background-color: aquamarine;
 }
   /* FOOTER SECTION STYLING  */
 
+   /* -------------------------------------------------------SOCIAL ICON SECTION STYLING  */
+ footer .social a {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  background: #7fffd4;
+  border-radius: 100%;
+  line-height: 2rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
   footer {
-    padding: 25px 0;
+    margin-top: 50px;
+    padding: 120px 0 50px 0;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
-    background-color: #000;
+    background-color: rgb(70, 69, 69);
   }
   
   footer p {
-    font-size: 12px;
+    font-size: 13px;
     margin: 0;
   }
   
