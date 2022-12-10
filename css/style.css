@@ -126,8 +126,6 @@ color: aquamarine !important;
   padding-top: 80px;  
  }
  #skills h1 {
-  width: 90px;
-  /* padding: 50px 0; */
   margin: 20px 0 50px 0;
  }
 .jumbotron-fluid {
@@ -199,38 +197,10 @@ color: aquamarine !important;
 .contact-section {
     padding-top: 80px;
   }
-  .contact-section .card {
-    border: 0;
-    border-bottom: 0.25rem solid #fff;
-  }
-  .contact-section .card h4 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-  }
-  .contact-section .card hr {
-    border-color: #64a19d;
-    border-width: 0.25rem;
-    width: 3rem;
-  }
-  .contact-section .social {
-    margin-top: 5rem;
-  }
-  .contact-section .social a {
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 100%;
-    line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
-  }
-  .contact-section .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .contact-section .social a:active {
-    color: #fff;
-  }
+ #contact .container h1 {
+  text-align: center;
+ }
+
  .my-4 {
   border-width: 1px !important;
   width: 100% !important;
@@ -247,6 +217,9 @@ color: aquamarine !important;
 }
 #contact .card-body {
   margin-bottom: 50px;
+}
+#contact {
+  margin-top: 50px;
 }
   /* FOOTER SECTION STYLING  */
 
@@ -277,4 +250,11 @@ color: aquamarine !important;
   
   footer ul {
     margin-bottom: 0;
+  }
+ 
+  footer .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  footer .social a:active {
+    color: #fff;
   }
