@@ -51,12 +51,10 @@ html {
 .main-nav .navbar-nav .nav-link:hover::after {
     transform: scaleX(1);
 }
-.navbar-expand-lg .navbarNav{
-    background-color: #000;
+.navbar {
+  background-color: #000;
 }
-/* button .navbar-toggler-icon {
-    border: #fff solid 1px;
-} */
+
 #mainNav .navbar-toggler {
   font-size: 25px;
   padding: 30px 5px 5px;
