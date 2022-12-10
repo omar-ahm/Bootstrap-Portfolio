@@ -24,7 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* NAVIGATION STYLING */
+/* --------------------------------------------------------------NAVIGATION STYLING */
 .navbar-nav {
    margin-left: auto;
 }
@@ -67,7 +67,7 @@ span .navbar-toggler-icon {
  color: #fff;   
 }
 
-/* JUMBOTRON STYLING */
+/* -----------------------------------------------------------------JUMBOTRON STYLING */
 .jumbotron {
     background-color: #000;
     color: #fff;
@@ -78,10 +78,10 @@ span .navbar-toggler-icon {
   border-radius: 50%;
 }
 
-/* MAIN HERO PROJECT CONTAINER */
+/* -----------------------------------------------------------MAIN HERO PROJECT CONTAINER */
 
 
-/* PROJECT CONTAINER STYLING */
+/* --------------------------------------------------------------PROJECT CONTAINER STYLING */
 .container .row {
     color: #fff;
     /* border: #fff dashed 1px; */
@@ -105,12 +105,84 @@ h4 {
 .contact-section bg-black h1 {
   color: #fff;
 }
+.btn {
+  margin-top: 20px;
+}
 
+/* ----------------------------------------------------------SKILLS SECTION STYLING  */
+#skills{
+  padding-top: 80px;  
+ }
+ #skills h1 {
+  width: 90px;
+  /* padding: 50px 0; */
+  margin: 20px 0 50px 0;
+ }
+.jumbotron-fluid {
+  margin: 0;
+  padding-top:64px;
+  padding-bottom: 0;
+}
+.jumbotron-fluid .container {
+  height: 300px;
+}
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.progress{
+    height: 30px;
+    background: #fff;
+    border-top: 5px solid #1c2647;
+    border-bottom: 5px solid #1c2647;
+    border-radius: 0;
+    margin-bottom: 25px;
+    overflow: visible;
+    position: relative;
+}
+.progress:before,
+.progress:after{
+    content: "";
+    width: 5px;
+    background: #1c2647;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    bottom: 0;
+}
+.progress:after{
+    left: auto;
+    right: -5px;
+}
+.progress-bar1{
+  background-color:#D55125
+}
+.progress-bar2{
+  background-color:#12E0F4
+}
+.progress-bar3{
+  background-color:#0CB880
+}
+.progress-bar4{
+  background-color:#7043AA
+}
+.progress .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4{
+    border: none;
+    box-shadow: none;
+    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+    animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
 
-
-/* CONTACT SECTION STYLING  */
+/* -----------------------------------------------------CONTACT SECTION STYLING  */
 .contact-section {
-    padding-top: 5rem;
+    padding-top: 80px;
   }
   .contact-section .card {
     border: 0;
@@ -155,42 +227,8 @@ h4 {
 .contact-section bg-black {
   border-bottom: aquamarine solid 2px;
 }
- /* SKILLS SECTION STYLING  */
 
- #skills {
-  margin: 50px;
-  /* padding-bottom: 50px ; */
-  
- }
- #skills h1 {
-  width: 90px;
-  /* padding: 50px 0; */
-  margin: 20px 0 50px 0;
- }
-.jumbotron-fluid {
-  margin: 0;
-  padding-top:64px;
-  padding-bottom: 0;
-}
-.jumbotron-fluid .container {
-  height: 300px;
-}
-.progress {
-  height: 50px;
-  
-  padding: 5px 0;
-  background: #000;
-}
-.progress-bar {
-  background: aquamarine;
-  color: #000;
-  text-align: left;
-  padding-left: 30px;
-  border-radius: 50px 50px 50px 50px;
-  font-family:  'Notable', sans-serif;
-  font-weight: 100;
-  
-}
+ 
 
 
  /* SOCIAL ICON SECTION STYLING  */
