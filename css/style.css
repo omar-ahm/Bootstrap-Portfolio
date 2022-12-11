@@ -239,6 +239,9 @@ form {
 .contact-info {
   color: #fff;
 }
+.list-unstyled p {
+  padding-top:20px
+}
 .contact-info:hover {
   color:#D55125
 }
