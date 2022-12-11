@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Objective](#Project-objective)
-- [Acceptance criteria](#Description)
+- [Project Brief](#Description)
 - [Thought Process](#Thought-process)
 - [Wireframe design](#Initial-wireframe-design)
 - [Resources & tools](#Resources)
@@ -12,11 +12,11 @@
 
 ## Deployed site
 
-![Alt text](./assets/images/final%20screenshot.png)
+![Alt text](../Bootstrap-Portfolio/images/BootstrapP-final.png)
 
 ## Project objective
 
-- The challenge is to create a personal portfolio page that you can update throughout the bootcamp with skills and details you learn as you progress through the modules.
+- The challenge is to create a personal portfolio page using Boostrap components and the skills we learned during module 3.
 
 ## Description / Project Brief
 
@@ -36,22 +36,23 @@ My project includes all of the following:
 - Skills section highlighting subjects we've covered so far as well as subjects we will be due to cover
   - I included a progress bar for each subject and gave my self a percentage indicator on how comfortable I feel I am on each subject.
 - About section with a brief description of who I am and my hobbies and interests
+- Contact form and information
+- A footer section that includes social icons which have a box-shadow hover effect applied.
 
 ## Thought Process
 
-I wanted to create a clean and simple layout with advanced functionality to navigate my site as it will be built on over the course of the bootcamp.
+I wanted to create a clean and simple layout with advanced functionality to navigate my site.
 
 I want to incorporate unique design elements and a standout factor to attract potential future clients.
 
-My interest in design has been a contributing factor on how I see layouts and what I want my work to present.
+Following on from the previous portfolio challenge I have been able to incorporate a hamburger menu for smaller devices and improve functionality throughout my site.
 
-Improvements I will look to make would be to add a hamburger menu when viewed in a small screen size and incorporate icons and additional advanced features.
+In the last project I used images as icons to display social icons, this time I've incorporated icons via Font awesome and bootstrap layouts.
 
-As I have not yet been introduced to bootstrap and icons in my contact section I substituted this for a way to display an image which links to my contact info.
-
+For the skills sections I incorporated a boostrap progress component to hightlight skills learned.
 ## Initial Wireframe Design
 
-I created my wireframe design using Procreate on Ipad Pro.
+I re-created and updated my wireframe design using Procreate on Ipad Pro.
 
 I did a mock up of how I wanted to structure the page to give a look and feel of the end result.
 
