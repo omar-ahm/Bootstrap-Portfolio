@@ -63,24 +63,20 @@
 
     <!-- -------------------------------------------------HERO SECTION/JUMBOTRON -->
 
+    <div id="home">
     <div class="jumbotron">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-4 mb-md-0">
-            <h1 class="display-4">Omar Ahmad</h1>
             <p class="lead">
-              Front-end Development
+              <h2><span>Omar Ahmad</h2>
             </p>
+            <h1 class="display-4">Front-End Development</h1>
+            
             <p>Bootcamp Student</p>
             <img src="./images/PFP color.png" class="card-img-pfp" alt="..." />
             <hr class="my-4" />
-            <p>
-              My coding weapon of choin is a 14" Macbook Pro M1, I've always used macs for any technical or design work and find that the technology and user experience is accustome to my needs
-              </p>
-              <p>
-              I enjoy coding and self-learning in my spare time, I'm also blockchain & artificial intelligence enthusiast
-            </p>
-            <p>I beleive WEB3 is the future</p>
+            
           </div>
           <div class="col-md-8 mb-4 mb-md-0">
             <img src="./images/laptop.jpg" class="card-img-top" alt="..." />
@@ -89,7 +85,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!-- ------------------------------------------------------WORK SECTION GRID / SMALLER PROJECTS-->
     
     <div id="portfolio">
@@ -110,7 +106,7 @@
                   <div class="small text-black-50">
                     <!-- <hr class="my-4" /> -->
                   <div class="small text-white-50">Refactor existing codes to include accessibility semantic code, this involved altering the existing code and added alt tags to improve accessibility, I also used a google extension screen reader for testing purposes</div>
-                    <a class="btn btn-primary btn-square" href="#" role="button"
+                    <a class="btn btn-primary btn-square" href="https://omar-ahm.github.io/HoriSEOn-Challenge-Code-Refactor/" role="button"
                       >Click to see the final project</a
                     >
                   </div>
@@ -199,6 +195,7 @@
     <!------------------------------------------------------------CONTACT SECTION-->
     <!-- Contact-->
     <div id="contact">
+      <div class="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-4 mb-md-0">
@@ -235,39 +232,98 @@
               </ul>
               </p>
               
-            <h3>Future technology</h3>
-            <p>Blockchain, WEB3 and ownership is the future</p>
+            <h3>Interests</h3>
+            <p>Blockchain, WEB3 & Artificial Intelligence</p>
           </div>
-          
+
+
+          <!------------------------------------------------------- CONTACT ME SECTION /FORM -->
           <div class="col-md-6 mb-4 mb-md-0">
-            <h1>CONTACT</h1>
+            <h1>CONTACT ME</h1>
             <hr class="my-4" />
-            
-            <div class="card">
-              
-            <div class="card-body text-center">
-            <img src="./images/address.png">
-            <h4>Location</h4>
-            <p>London, United Kingdom</p>
-            <a class="btn btn-out btn-square" href="https://www.google.com/maps/place/Richmond/@51.4542461,-0.3264427,13z/data=!3m1!4b1!4m5!3m4!1s0x48760b88237c5027:0xa9a7de1ab1d56e58!8m2!3d51.461311!4d-0.303742" role="button">OPEN MAPS</a>
-          </div>
+            <section class="mb-4">
 
-          <div class="card-body text-center">
-            <img src="./images/emailme.png">
-            <h4>Email</h4>
-            <p>Drop me an email</p>
-            <a class="btn btn-out btn-square" href="mailto:irycevier@gmail.com" role="button">EMAIL ME</a>
-          </div>
-
+              <p class="text-center w-responsive mx-auto mb-5">If you have any questions, please get in touch via the contact form or directly on my contact infor</p>
           
-            <div class="card-body text-center">
-              <img src="./images/phone.png">
-              <h4>Phone</h4>
-              <p>Drop me a call</p>
-              <a class="btn btn-out btn-square" href="tel:+447554213241" role="button">CALL ME</a>
-            </div>
+              <div class="row">
           
-          </div>
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-md-0 mb-5">
+                      <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          
+                          <!--Grid row-->
+                          <div class="row">
+          
+                              <!--Grid column-->
+                              <div class="col-md-6">
+                                  <div class="md-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                      <input type="text" id="name" name="name" class="form-control">   
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+          
+                              <!--Grid column-->
+                              <div class="col-md-6">
+                                  <div class="md-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                      <input type="text" id="email" name="email" class="form-control">
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+          
+                          </div>
+                          <!--Grid row-->
+          
+                          <!--Grid row-->
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="md-form mb-0">
+                                    <label for="subject" class="">Subject</label>
+                                      <input type="text" id="subject" name="subject" class="form-control">
+                                  </div>
+                              </div>
+                          </div>
+                          <!--Grid row-->
+          
+                          <!--Grid row-->
+                          <div class="row">
+          
+                              <!--Grid column-->
+                              <div class="col-md-12">
+          
+                                  <div class="md-form">
+                                    <label for="message">Your message</label>
+                                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  </div>
+          
+                              </div>
+                          </div>
+                          <!--Grid row-->
+          
+                      </form>
+                      
+                      <div class="text-center text-md-left">
+                          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                      </div>
+                      <div class="status"></div>
+                  </div>
+                  
+                  <div class="row-md-0 text-left">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>London, UK</p>
+                        </li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+44 7554 554 554</p>
+                        </li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>contact@me.com</p>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+ 
         </div>
             </div>
             </div>
@@ -279,9 +335,9 @@
     <footer>
       <div class="container">
         <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="https://www.linkedin.com/in/omar-ahm/"><i class="fa-brands fa-linkedin"></i></a>
-          <a class="mx-2" href="https://www.reddit.com/user/capapella/"><i class="fa-brands fa-reddit"></i></a>
-          <a class="mx-2" href="https://github.com/omar-ahm"><i class="fa-brands fa-github"></i></a>
+          <a class="mx-2" href="https://www.linkedin.com/in/omar-ahm/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+          <a class="mx-2" href="https://www.reddit.com/user/capapella/"><i class="fa-brands fa-reddit fa-xl"></i></a>
+          <a class="mx-2" href="https://github.com/omar-ahm"><i class="fa-brands fa-github fa-xl"></i></a>
           <a class="mx-2" href="https://stackoverflow.com/users/6476677/oma"><i class="fa-brands fa-stack-overflow"></i></a>
         </div>
         <p>&copy; Omar Ahmad 2022. All Rights Reserved.</p>

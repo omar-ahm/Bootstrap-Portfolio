@@ -53,6 +53,7 @@ html {
 }
 .navbar {
   background-color: #000;
+  box-shadow: 0 0 9px rgba(255,255,255,.6);
 }
 
 #mainNav .navbar-toggler {
@@ -78,6 +79,9 @@ span .navbar-toggler-icon {
   height: 300px;
   border-radius: 50%;
   margin: 30px 0 30px 0;
+}
+.jumbotron span {
+  color: aquamarine;
 }
 
 /* -----------------------------------------------------------MAIN HERO PROJECT CONTAINER */
@@ -144,8 +148,8 @@ color: aquamarine !important;
 .progress{
     height: 30px;
     background: #fff;
-    border-top: 5px solid #1c2647;
-    border-bottom: 5px solid #1c2647;
+    border-top: 5px solid rgb(198, 197, 197);
+    border-bottom: 5px solid rgb(198, 197, 197);
     border-radius: 0;
     margin-bottom: 25px;
     overflow: visible;
@@ -155,7 +159,7 @@ color: aquamarine !important;
 .progress:after{
     content: "";
     width: 5px;
-    background: #1c2647;
+    background: rgb(198, 197, 197);
     position: absolute;
     top: 0;
     left: -5px;
@@ -219,28 +223,39 @@ color: aquamarine !important;
   margin-bottom: 50px;
 }
 #contact {
-  margin-top: 50px;
+  margin-top: 80px;
+}
+.text-center a.btn {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  color: #000;
+}
+.list-unstyled {
+  margin-left: 50px;
+}
+form {
+  margin:0 20px
 }
   /* FOOTER SECTION STYLING  */
 
    /* -------------------------------------------------------SOCIAL ICON SECTION STYLING  */
  footer .social a {
   text-align: center;
-  height: 2rem;
-  width: 2rem;
-  background: #7fffd4;
+  height: 5rem;
+  width: 5rem;
+  border: aquamarine solid 0.5px;
   border-radius: 100%;
-  line-height: 2rem;
-  color: #000;
+  line-height: 5rem;
+  color: #fff;
   margin-bottom: 20px;
 }
-
   footer {
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 120px 0 50px 0;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
     background-color: rgb(70, 69, 69);
+    box-shadow: 0 0 35px #fff ;
   }
   
   footer p {
@@ -251,10 +266,6 @@ color: aquamarine !important;
   footer ul {
     margin-bottom: 0;
   }
- 
-  footer .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  footer .social a:active {
-    color: #fff;
+  footer .mx-2:hover {
+    box-shadow: 0 0 25px rgba(255,255,255,.6);
   }
