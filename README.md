@@ -59,11 +59,11 @@ Check out my initial layout below
 
 Screenshot 1:
 
-![Alt text](../Bootstrap-Portfolio/images/Screenshot1.jpg)
+![Alt text](../Bootstrap-Portfolio/images/BS%20wire%202.jpg)
 
 Screenshot 2:
 
-![Alt text](../Bootstrap-Portfolio/images/Screenshot2.jpg)
+![Alt text](../Bootstrap-Portfolio/images/BS%20wire1.jpg)
 
 ## License
 
