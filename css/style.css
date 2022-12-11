@@ -247,11 +247,11 @@ form {
    /* -------------------------------------------------------SOCIAL ICON SECTION STYLING  */
  footer .social a {
   text-align: center;
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   border: aquamarine solid 0.5px;
   border-radius: 100%;
-  line-height: 5rem;
+  line-height: 3rem;
   color: #fff;
   margin-bottom: 20px;
 }
