@@ -3,22 +3,20 @@
 ## Table of contents
 
 - [Objective](#Project-objective)
-- [Project Brief](#Description)
+- [Project Brief](#Project-Brief)
 - [Thought Process](#Thought-process)
 - [Wireframe design](#Initial-wireframe-design)
-- [Resources & tools](#Resources)
-- [Credits](#Credits)
 - [License](#License)
 
 ## Deployed site
 
-![Alt text](../Bootstrap-Portfolio/images/BootstrapP-final.png)
+![Alt text](images/BootstrapP-final.png)
 
 ## Project objective
 
 - The challenge is to create a personal portfolio page using Boostrap components and the skills we learned during module 3.
 
-## Description / Project Brief
+## Project Brief
 
 Using the skill we learnt in week 3 we were asked to re-create our personal portfolio using Bootstrap components.
 
@@ -60,11 +58,11 @@ Check out my initial layout below
 
 Screenshot 1:
 
-![Alt text](../Bootstrap-Portfolio/images/BS%20wire%202.jpg)
+![Alt text](images/BS%20wire%202.jpg)
 
 Screenshot 2:
 
-![Alt text](../Bootstrap-Portfolio/images/BS%20wire1.jpg)
+![Alt text](images/BS%20wire1.jpg)
 
 ## License
 
