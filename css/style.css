@@ -236,6 +236,12 @@ color: aquamarine !important;
 form {
   margin:0 20px
 }
+.contact-info {
+  color: #fff;
+}
+.contact-info:hover {
+  color:#D55125
+}
   /* FOOTER SECTION STYLING  */
 
    /* -------------------------------------------------------SOCIAL ICON SECTION STYLING  */
