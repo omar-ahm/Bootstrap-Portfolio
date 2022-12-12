@@ -10,6 +10,8 @@
 
 ## Deployed site
 
+Link to deployed site: https://omar-ahm.github.io/Bootstrap-Portfolio/
+
 ![Alt text](images/BootstrapP-final.png)
 
 ## Project objective
