@@ -184,6 +184,9 @@ color: aquamarine !important;
 .progress-bar5{
   background-color:#7043AA
 }
+.progress-bar6{
+  background-color:#e548be
+}
 .progress .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4, .progress-bar5{
     border: none;
     box-shadow: none;
